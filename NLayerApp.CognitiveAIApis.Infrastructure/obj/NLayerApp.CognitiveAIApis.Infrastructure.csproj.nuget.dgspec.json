@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Administrator\\cognitiveai-apis\\NLayerApp.CognitiveAIApis\\NLayerApp.CognitiveAIApis.Infrastructure\\NLayerApp.CognitiveAIApis.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Administrator\\cognitiveai-apis\\NLayerApp.CognitiveAIApis\\NLayerApp.CognitiveAIApis.Infrastructure\\NLayerApp.CognitiveAIApis.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrator\\cognitiveai-apis\\NLayerApp.CognitiveAIApis\\NLayerApp.CognitiveAIApis.Infrastructure\\NLayerApp.CognitiveAIApis.Infrastructure.csproj",
+        "projectName": "NLayerApp.CognitiveAIApis.Infrastructure",
+        "projectPath": "C:\\Users\\Administrator\\cognitiveai-apis\\NLayerApp.CognitiveAIApis\\NLayerApp.CognitiveAIApis.Infrastructure\\NLayerApp.CognitiveAIApis.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\cognitiveai-apis\\NLayerApp.CognitiveAIApis\\NLayerApp.CognitiveAIApis.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/mouadcherkaoui/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "EnterpriseLibrary.TransientFaultHandling.Core": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100-preview9-014004\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
